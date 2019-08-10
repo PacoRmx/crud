@@ -20,7 +20,7 @@ defmodule Yetcargo.MixProject do
   def application do
     [
       mod: {Yetcargo.Application, []},
-      extra_applications: [:logger, :runtime_tools, :httpoison]
+      extra_applications: [:logger, :runtime_tools]
     ]
   end
 
